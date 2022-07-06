@@ -1,18 +1,22 @@
 #include "main.h"
+#include <stdio.h>
 /**
- *main - entry
+ * main - check the code
+ * Return: Always 0
  *
- *Description: description
- *
- *Return: 0 (success)
  */
 int main(void)
 {
-	char c[9] = "_putchar";
-	int i;
-
-	for (i = 0; i < 8; ++i)
-		_putchar(c[i]);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 	return (0);
+
+
 }
